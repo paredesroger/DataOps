@@ -8,6 +8,7 @@ This blueprint defines the target state for the `PROD_NUM_DB` repository. The ar
 ## 2. Target Directory Architecture
 An audited, compliant repository must adhere to the following structure:
 
+```
 .github/
 ├── copilot-instructions.md        # Repository-wide AI rules for IDE assistants
 └── agents/
@@ -32,6 +33,7 @@ sql/                               # Physical Declarative State
 ├── SEMANTIC_VIEWS/                # Downstream presentation models
 ├── TASKS/                         # Snowflake schedule declarations
 └── WORKING_TABLES/                # Staging and intermediate structures
+```
 
 ---
 
